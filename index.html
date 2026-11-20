@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodHub | Discover Good Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+
+        <div class="logo">Food<span>Hub</span></div>
+
+        <nav>
+            <a href="/">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#recipes">Recipes</a>
+            <a href="#about">About Us</a>
+        </nav>
+
+    </header>
+
+    <!-- Welcome Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="tagline">WELCOME TO FOODHUB</p>
+
+            <h1>Where Every<br>Meal Tells a Story.</h1>
+
+            <p class="description">
+                Discover wonderful flavours, explore delicious recipes
+                and bring something special to your dining table.
+            </p>
+
+            <a href="#recipes" class="explore-btn">
+                EXPLORE RECIPES
+            </a>
+
+            <p class="hero-note">GOOD FOOD. BEAUTIFUL MOMENTS.</p>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=1000"
+                 alt="Delicious food">
+        </div>
+
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+
+        <p class="section-label">EXPLORE BY CATEGORY</p>
+
+        <h2>Find What You're Craving</h2>
+
+        <p class="section-description">
+            A little inspiration for whatever you're in the mood for.
+        </p>
+
+        <div class="category-container">
+
+            <a href="#veg-recipes" class="category-card">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600"
+                     alt="Vegetarian food">
+                <h3>Vegetarian</h3>
+            </a>
+
+            <a href="#nonveg-recipes" class="category-card">
+                <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600"
+                     alt="Non vegetarian food">
+                <h3>Non-Vegetarian</h3>
+            </a>
+
+            <a href="#rice-recipes" class="category-card">
+                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600"
+                     alt="Rice dishes">
+                <h3>Rice Dishes</h3>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Recipes Section -->
+    <section id="recipes" class="recipes">
+
+        <p class="section-label">OUR SPECIAL COLLECTION</p>
+
+        <h2>Discover Our Recipes</h2>
+
+        <p class="section-description">
+            Carefully selected dishes to make every meal memorable.
+        </p>
+
+        <div class="recipe-container" id="rice-recipes">
+
+            <!-- Veg Fried Rice -->
+            <a href="/recipe?id=1" class="recipe-card" id="veg-recipes">
+
+                <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=700"
+                     alt="Veg Fried Rice">
+
+                <div class="recipe-info">
+                    <p class="recipe-type">VEGETARIAN · RICE</p>
+                    <h3>Veg Fried Rice</h3>
+                    <p>
+                        A delicious combination of rice, fresh vegetables
+                        and aromatic seasonings.
+                    </p>
+                </div>
+
+            </a>
+
+            <!-- Paneer Butter Masala -->
+            <a href="/recipe?id=2" class="recipe-card">
+
+                <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=700"
+                     alt="Paneer Butter Masala">
+
+                <div class="recipe-info">
+                    <p class="recipe-type">VEGETARIAN · INDIAN</p>
+                    <h3>Paneer Butter Masala</h3>
+                    <p>
+                        Soft paneer cubes cooked in a rich, creamy
+                        tomato-based gravy.
+                    </p>
+                </div>
+
+            </a>
+
+            <!-- Chicken Biryani -->
+            <a href="/recipe?id=3" class="recipe-card" id="nonveg-recipes">
+
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto%2Cw_400/RX_THUMBNAIL/IMAGES/VENDOR/2026/4/11/261b4535-485a-4e3a-8a05-16eaf83b3fbe_13552.jpg"
+                     alt="Chicken Biryani">
+
+                <div class="recipe-info">
+                    <p class="recipe-type">NON-VEGETARIAN · RICE</p>
+                    <h3>Chicken Biryani</h3>
+                    <p>
+                        Fragrant basmati rice layered with spiced chicken
+                        and traditional biryani flavours.
+                    </p>
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+
+        <div class="about-content">
+
+            <p class="section-label">OUR STORY</p>
+
+            <h2>A Little Love in Every Recipe.</h2>
+
+            <p>
+                At FoodHub, we believe that good food brings people
+                together. Our website helps food lovers discover
+                delicious recipes with clear ingredients and
+                step-by-step preparation instructions.
+            </p>
+
+            <p>
+                Whether you enjoy traditional dishes or want to try
+                something new, there's always something delicious
+                waiting for you.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-logo">Food<span>Hub</span></div>
+
+        <p>Discover flavours. Create memories. Enjoy every bite.</p>
+
+        <div class="footer-links">
+            <a href="/">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#recipes">Recipes</a>
+            <a href="#about">About Us</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 FoodHub. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
